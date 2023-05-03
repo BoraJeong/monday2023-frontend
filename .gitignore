@@ -1,0 +1,9 @@
+.DS_Store
+/node_modules/
+/css/
+/dist/
+
+# IntelliJ project files
+.idea
+.idea/*.xml
+*.iml
