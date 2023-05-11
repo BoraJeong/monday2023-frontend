@@ -3,6 +3,48 @@ body {
   background-color: $body-bg;
 }
 
+body, text {
+  font-family: Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrap {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  display: flex;
+
+  .logo {
+    margin-bottom: 0;
+    margin-right: 20px;
+
+    a span {
+      font-size: 12px;
+    }
+  }
+
+  .inner {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+}
+
 .icon-list {
   padding-left: 0;
   list-style: none;
